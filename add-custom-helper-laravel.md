@@ -1,5 +1,5 @@
-# Add Custom Helper Laravel 9
-To add a custom helper function in Laravel 9, you can follow these steps:
+# Add Custom Helper Laravel 11
+To add a custom helper function in Laravel 11, you can follow these steps:
 
 1. Create a new PHP file in the app/Helpers directory. This is the recommended location for custom helpers in Laravel.
 
@@ -25,7 +25,7 @@ if (! function_exists('exampleHelper')) {
         "App\\": "app/"
     },
     "files": [
-        "app/Helpers/helpers.php"
+        "app/Helpers/Helper.php"
     ]
 },
 ```
